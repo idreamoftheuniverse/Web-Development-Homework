@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #4E6639;
+    color: white;
+}
+
+#home{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    background: url("assets/banner.png") top center no-repeat;
+    background-size: cover;
+    margin-top: -15px;
+}
+
+
+#about{
+    display: flex;
+    justify-content:space-between;
+    flex-flow: wrap;
+}
+
+#about div { 
+    margin:0% 5%; 
+    font-size: 20px; 
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+#about img { 
+    flex-grow: 1;
+}
+
+
+#title{
+    float: left; 
+    margin-left:50px; 
+    font-weight:600;
+}
+
+#title1{
+    text-align: center;
+    margin-top: 200px; 
+    font-size: 45px; 
+    font-weight: 100; 
+    color: #fe7b14;
+}
+
+#title2{
+    text-align: center;
+    font-size: 45px; 
+    color: #68B984;
+}
+
+
+#title3{
+    color: #fe7b14;
+    margin: 0px;
+    text-align:center;
+}
+
+
+ul{
+    list-style: none;
+    font-size:16px;
+    width: 100%;
+    background-color: #304023;
+    padding: 10px 0px 10px 0px;
+    text-align: right;
+    top: 0px;
+    position: sticky;
+}
+
+
+ul a{
+    margin-right:40px;
+    padding:10px 15px 10px 15px;
+    transition: 0.5s ease;
+    color:white;
+    transition: 0.5s ease;
+  }
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display : inline-block;
+}
+
+li a:hover{
+    color: #fe7b14;
+    background-color: #ffffff;
+  }
+
+
+
+
+h3{
+    color: #ffffff; 
+    margin-bottom:20px; 
+    margin-top: 20px;
+}
+
+
+
+#explore{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 5% 5%;
+    background-color: #9D511E;
+    color: #ffffff
+}
+
+#explore div{
+    flex-basis: 40%;
+    flex-grow: 6;
+    text-align: justify
+}
+
+#animals{
+    background: url('images/bg.png') center;
+    background-size: cover;
+    
+}
+
+#footer{
+    background: url('images/footer.png') center;
+    color: white;
+    display: flex;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 60px;
+}
+
+#footer div {
+    margin: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+/* Display as flex to make the cards align in rows and columns*/
+/* Justify the card so that they have space around them */
+#attractions{
+    gap: 30px;
+    width:70%;
+    margin: 50px auto;
+    flex-flow: wrap;
+}
+
+#attractions>div{   
+    flex-basis: 30%;
+}
+
+#attractions h3{
+    margin: auto;
+    font-weight: 400;
+    
+}
+
+/* Add box shadow of color #642cbc */
+/* Give border radius of to cards to make the card round */
+.cards{
+      width:200px;
+      height:200px;
+      background-size: 100% 100%;
+      transition: 1s ease-out;
+      text-align: center;   
+      margin: auto;
+      background-position: center center;
+}
+
+/* Add hover effect to increase the width and height of card */
+.cards:hover{
+
+}
